@@ -1,0 +1,14 @@
+PASSO A PASSO PARA EXECUTAR:
+
+-> Abrir o CMD como administrador 
+        (pesquisar na barra do windows CMD e apertar para executar como ADM)
+
+-> Depois de aberto o CMD, copiar e colar o código abaixo para instalar (apenas uma vez)
+         pip install pandas openpyxl
+
+-> Abri o diretório onde está o arquivo usando cd + caminho do diretório
+
+-> Usar
+python conciliacao_conexa_banco_sem_saldo.py --banco "extrato_banco.xlsx" --erp "relatorio_conexa.xlsx" --saida "conciliacao_final.xlsx"
+
+
